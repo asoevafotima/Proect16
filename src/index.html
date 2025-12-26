@@ -7,6 +7,79 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-     
+     <header class="max-w-300 m-auto px-6 py-8 flex justify-between items-center">
+    <nav class="hidden lg:block lg:flex gap-[30px] text-gray-700 text-lg">
+      <p >Booking</p>
+      <p >Facilities</p>
+      <p >About Us</p>
+      <p >Location</p>
+      <p >Contact</p>
+    </nav>
+    <button class="bg-green-500 text-white px-8 py-4 rounded-full font-medium hover:bg-green-600 transition shadow-md">
+      Login
+    </button>
+  </header>
+
+  <section class="max-w-300 m-auto rounded-[10px] bg-[#24AB700A]  px-6">
+    <div class="absolute top-0"></div>
+
+    <div class="relative grid grid-cols-1 lg:grid-cols-2 gap-12 items-start pt-12">
+      <div class="">
+        <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-8 leading-tight">
+          Find your perfect place to stay
+        </h1>
+        <p class="text-gray-600 text-lg mb-12 max-w-lg">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+
+        <button class="flex items-center gap-4 text-green-600 font-semibold text-lg hover:gap-6 transition-all mb-20">
+        
+            <img src="/src/Group 2.png" alt="">
+          Watch video
+        </button>
+ 
+        <div class="w-[300px] lg:w-[1000px] mt-[50px] lg:mt-[300px] px-8 bg-white rounded-full shadow-2xl p-6 flex flex-col lg:flex-row items-center gap-6">
+          <div class="flex items-center gap-4 flex-1">
+            <div>
+              <p class="text-sm text-gray-500">Location</p>
+              <p class="font-medium text-lg">United States</p>
+            </div>
+          </div>
+          <div class="w-px h-12 bg-gray-300 hidden lg:block"></div>
+          <div class="flex items-center gap-4 flex-1">
+            <div>
+              <p class="text-sm text-gray-500">Check in</p>
+              <p class="font-medium text-lg">10 Jun 2021</p>
+            </div>
+          </div>
+          <div class="w-px h-12 bg-gray-300 hidden lg:block"></div>
+          <div class="flex items-center gap-4 flex-1">
+            <div>
+              <p class="text-sm text-gray-500">Check out</p>
+              <p class="font-medium text-lg">15 Jun 2021</p>
+            </div>
+          </div>
+          <div class="w-px h-12 bg-gray-300 hidden lg:block"></div>
+          <div class="flex items-center gap-4 flex-1">
+            <div>
+              <p class="text-sm text-gray-500">Rooms for</p>
+              <p class="font-medium text-lg">1 room, 2 guests</p>
+            </div>
+          </div>
+          <button class="bg-green-500 text-white px-12 py-6 rounded-full font-bold text-lg hover:bg-green-600 transition shadow-lg flex items-center gap-3">
+            Search...
+          </button>
+        </div>
+      </div>
+
+      <!-- Right: Image (ты поставишь свою картинку с домиком) -->
+      <div class="relative z-10 mt-20 lg:mt-0">
+        <div class="rounded-3xl overflow-hidden shadow-2xl">
+          <!-- Замени src на свою картинку с домиком -->
+          <img src="/src/image (56).png" alt="Beautiful house" class="w-full h-full object-cover min-h-96">
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
